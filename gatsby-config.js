@@ -83,6 +83,14 @@ module.exports = {
         "gatsby-plugin-mdx",
         "gatsby-transformer-sharp",
         {
+            resolve: "gatsby-plugin-react-svg",
+            options: {
+              rule: {
+                include: /content\/assets/ // See below to configure properly
+              }
+            }
+        },
+        {
             resolve: "gatsby-omni-font-loader",
             options: {
                 mode: "async",

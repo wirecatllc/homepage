@@ -1,15 +1,19 @@
 import * as React from "react"
+import Logo from '../../content/assets/combined-square.svg'
 
 // markup
 const IndexPage = () => {
   return (
     <main>
       <title>Home Page</title>
-      <h1>
-        WireCat LLC
-        <br />
-      </h1>
-      <p>Coming Soon...</p>
+      <div class="outer">
+      <div class="middle">
+        <div class="inner">
+          <Logo/>
+          <p>Coming Soon...</p>
+        </div>
+      </div>
+    </div>
     </main>
   )
 }
