@@ -1,8 +1,7 @@
-
 import "@fontsource/montserrat"
 
 // custom CSS styles
-import "./src/style.scss"
+import "./src/styles/style.scss"
 
 // Highlighting for code blocks
 import "prismjs/themes/prism.css"

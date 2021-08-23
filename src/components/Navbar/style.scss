@@ -1,0 +1,58 @@
+$grey-10: #f4f4f4;
+$background-color: white;
+
+body {
+    .bx--header {
+        background-color: $background-color;
+    }
+    
+    .bx--header__name {
+        padding: 0 1rem 0 1rem;
+    }
+    
+    .bx--header__name:hover {
+        background-color: $grey-10;
+        color: black;
+    }
+    
+    .bx--header__menu-item {
+        font-size: var(--cds-body-short-02-font-size,1rem);
+        font-weight: var(--cds-body-short-02-font-weight,400);
+        line-height: var(--cds-body-short-02-line-height,1.375);
+        letter-spacing: var(--cds-body-short-02-letter-spacing,0);
+        color: $theme-color-light;
+    }
+    
+    .bx--header__menu-item:hover {
+        background-color: $grey-10;
+        color: $theme-color-light;
+    }
+    
+    .logo {
+        width: 100px;
+    }
+
+    .bx--header__menu-trigger {
+        background: $theme-color-light;
+    }
+
+    .bx--header__menu-trigger:hover {
+        background-color: $grey-10;
+    }
+
+    .bx--header__action:selected {
+        background-color: $grey-10;
+    }
+
+    .bx--header__action {
+        fill: white;
+    }
+
+    .bx--header__action:hover {
+        background-color: $grey-10;
+    }
+
+    svg.custom-color {
+        fill: $theme-color-dark !important;
+    }
+}

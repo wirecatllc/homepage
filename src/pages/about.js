@@ -1,26 +1,21 @@
 import * as React from "react"
-import { Helmet } from "react-helmet"
-import Layout from "@layouts/default"
+import Logo from '../../content/assets/logo.svg'
 
 // markup
 const IndexPage = () => {
   return (
-    <Layout>
-      <Helmet>
-          <title>Home Page</title>
-      </Helmet>
+    <main>
+      <title>Home Page</title>
       <div class="outer">
       <div class="middle">
         <div class="inner">
-          
+          <Logo/>
           <p>Coming Soon...</p>
         </div>
       </div>
     </div>
-    </Layout>
+    </main>
   )
 }
-
-
 
 export default IndexPage

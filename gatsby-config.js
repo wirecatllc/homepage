@@ -7,25 +7,32 @@ module.exports = {
             summary: `Connect Possibilities`,
         },
         siteUrl: `https://wirecat.net/`,
-        headerLinks: [
-            {
-                name: "About Us",
-                url: "/about/",
-                page: true
-            },
-            {
-                name: "Client Area",
-                url: "https://billing.wirecat.net",
-            },
-        ],
     },
     plugins: [
         'gatsby-plugin-preact',
         {
+            resolve: `gatsby-plugin-alias-imports`,
+            options: {
+              alias: {
+                "@src": "src",
+                "@components": "src/components",
+                "@layouts": "src/layouts",
+                "@pages": "src/pages",
+                "@sass": "src/sass",
+                "@templates": "src/templates",
+                "@posts": "content/posts",
+                "@assets": "content/assets"
+              },
+              extensions: [
+                "js",
+              ],
+            }
+        },
+        {
             resolve: `gatsby-source-filesystem`,
             options: {
-                path: `${__dirname}/content/blog`,
-                name: `blog`,
+                path: `${__dirname}/content/posts`,
+                name: `posts`,
             },
         },
         {
@@ -76,7 +83,13 @@ module.exports = {
                 allExtensions: true, // defaults to false
             },
         },
-        "gatsby-plugin-sass",
+        {
+            resolve: 'gatsby-plugin-sass',
+            options: {
+                // https://stackoverflow.com/a/57865503/13843585
+                additionalData: `@import "${__dirname}/src/styles/variables";`,
+            }
+        },
         "gatsby-plugin-sharp",
         "gatsby-plugin-react-helmet",
         "gatsby-plugin-sitemap",
