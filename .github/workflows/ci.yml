@@ -3,12 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - main
-      - master
-  pull_request:
-    branches:
-      - main
-      - master
+      - nuxt
 
 jobs:
   ci:
@@ -50,3 +45,16 @@ jobs:
 
       - name: Run tests 🧪
         run: yarn test
+      
+      - name: Build site
+        run: yarn run generate
+
+      - name: Deploy to pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: ${{ github.event.head_commit.message }}
