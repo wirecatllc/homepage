@@ -8,12 +8,16 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="/services/bgp">
-          BGP Services
+        <b-nav-item href="/services/vm">
+          Cloud VM
         </b-nav-item>
         <b-nav-item href="/services/colocation">
           Colocation
         </b-nav-item>
+        <b-nav-item href="/services/bgp">
+          BGP
+        </b-nav-item>
+
         <b-nav-item href="/services/remotehands">
           Remote hands
         </b-nav-item>

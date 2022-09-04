@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <img src="~/assets/logo.png">
+    <nuxt-img src="/logo.png" />
     <p>All Rights Reserved, 2021-2022</p>
   </div>
 </template>

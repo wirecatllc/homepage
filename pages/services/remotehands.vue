@@ -2,13 +2,13 @@
   <div>
     <RemoteHandsFrame />
     <b-container>
-      <b-row>
+      <b-row cols="1" cols-sm="1" cols-md="2" cols-lg="3">
         <b-col>
           <b-card
             title="Location"
           >
             <b-card-text>
-              Currently we can reach out any location in Bay area, such as Santa Clara, Fremont.
+              Currently we can reach out any location in Bay area, such as Santa Clara, Fremont. File a ticket to your DC and we will handle the rest.
             </b-card-text>
           </b-card>
         </b-col>
@@ -17,7 +17,7 @@
             title="Versatile Options"
           >
             <b-card-text>
-              Drop ship parts from eBay? Needs Door to Door pickup? We can do it all.
+              Drop ship parts from eBay? Needs Door to Door pickup? We can do it all! You can even buy parts from us directly and we will replace it for you.
             </b-card-text>
           </b-card>
         </b-col>

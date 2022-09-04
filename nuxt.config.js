@@ -11,12 +11,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
       {
         hid: 'description',
         name: 'description',
-        content: 'WireCat -- Connecting Possibilities'
+        content: 'We provide a wide range of services to help you achieve your goals.'
       },
       {
         hid: 'keywords',
@@ -44,7 +43,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/svg'
+    '@nuxtjs/svg',
+    '@nuxt/image'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

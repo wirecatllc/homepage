@@ -9,7 +9,7 @@
     <template #lead>
       <p>
         Flexible, Affordable, and Reliable.<br>
-        <strong>Comes with <u>ALL</u> our VM/Colo services.</strong>
+        <strong>Comes with <u>ALL</u> of our VM/Colo services.</strong>
       </p>
     </template>
 

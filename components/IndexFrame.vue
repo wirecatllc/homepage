@@ -3,7 +3,7 @@
     <div class="color-overlay" />
     <div class="video-container">
       <video class="background-video" autoplay playsinline muted loop>
-        <source src="~/assets/index-background.mp4" type="video/mp4">
+        <source src="~/assets/out-index.mp4" type="video/mp4">
       </video>
     </div>
 
@@ -50,6 +50,18 @@ export default {
 .video-container {
   position: absolute;
   z-index: -103;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+video {
+  position: absolute;
+  height: 100%;
+  width: 177.77777778vh; /* 100 * 16 / 9 */
+  min-width: 100%;
+  min-height: 56.25vw; /* 100 * 9 / 16 */
   left: 50%; /* % of surrounding element */
   top: 50%;
   transform: translate(-50%, -50%); /* % of current element */
