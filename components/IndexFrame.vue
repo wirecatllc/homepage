@@ -2,7 +2,7 @@
   <b-jumbotron fluid class="extend text-center" text-variant="light">
     <div class="color-overlay" />
     <div class="video-container">
-      <video class="background-video" autoplay muted loop>
+      <video class="background-video" autoplay playsinline muted loop>
         <source src="~/assets/index-background.mp4" type="video/mp4">
       </video>
     </div>
@@ -39,7 +39,7 @@ export default {
 .extend {
   position: relative;
   overflow: hidden;
-  z-index: -99;
+  z-index: 100;
   min-height: 40rem;
   display: flex;
   flex-direction: column;
@@ -47,17 +47,12 @@ export default {
   align-items: center;
 }
 
-.background-video {
+.video-container {
   position: absolute;
   z-index: -103;
   left: 50%; /* % of surrounding element */
   top: 50%;
   transform: translate(-50%, -50%); /* % of current element */
-}
-
-.video-container {
-  z-index: -102;
-  position: relative;
 }
 
 .color-overlay {
@@ -66,7 +61,7 @@ export default {
   left: 0px;
   width: 100%;
   height: 100%;
-  z-index: -101;
-  background-color: rgba(50, 50, 50, 0.3);
+  z-index: -100;
+  background-color: rgba(50, 50, 50, 0.4);
 }
 </style>
