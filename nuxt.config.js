@@ -12,7 +12,17 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'WireCat -- Connecting Possibilities'
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'BGP, Affordable Colocation, Cloud, VPS, Dedicated Server, Remote hands'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
