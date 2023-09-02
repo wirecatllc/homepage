@@ -28,6 +28,14 @@
         <b-nav-item href="/about">
           About
         </b-nav-item>
+        <b-nav-item-dropdown text="Community" right>
+          <b-dropdown-item href="https://t.me/WirecatNews">
+            Telegram Channel/Discussion
+          </b-dropdown-item>
+          <b-dropdown-item href="https://discord.gg/ATApJFeGGs">
+            Discord
+          </b-dropdown-item>
+        </b-nav-item-dropdown>
         <b-nav-item href="https://billing.wirecat.net">
           Billing Portal
         </b-nav-item>
