@@ -8,7 +8,7 @@
 
     <template #lead>
       <p>
-        Reach what you can't reach. <br> Bring your needs and we fulfill them.
+        Take a rest, <br> we will take it from here.
       </p>
     </template>
 
@@ -16,7 +16,7 @@
 
     <p>
       <b-button variant="primary" href="mailto:sales@wirecat.net">
-        Ask Today
+        Start by $50/task, NOT per hour
       </b-button>
     </p>
   </b-jumbotron>
