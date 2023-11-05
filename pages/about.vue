@@ -22,8 +22,8 @@
     <b-link href="mailto:noc@wirecat.net" class="card-link">
       Noc Contact: noc@wirecat.net
     </b-link>
-    <b-link href="tel:1-2244195566" class="card-link">
-      Noc Phone: 1-2244195566
+    <b-link href="tel:1-8582429877" class="card-link">
+      Noc Phone: 1-8582429877
     </b-link>
   </b-card>
 </template>
