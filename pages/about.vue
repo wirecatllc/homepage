@@ -25,6 +25,9 @@
     <b-link href="tel:1-8582429877" class="card-link">
       Noc Phone: 1-8582429877
     </b-link>
+    <b-link href="https://wirecat.net/legal/tos" class="card-link">
+      Terms of Service
+    </b-link>
   </b-card>
 </template>
 
