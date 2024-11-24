@@ -40,11 +40,14 @@
           Billing Portal
         </b-nav-item>
         <b-nav-item-dropdown text="Network" right>
+          <b-dropdown-item href="https://bgp.tools/lg/399888">
+            Looking Glass
+          </b-dropdown-item>
           <b-dropdown-item href="https://www.peeringdb.com/net/29705">
             PeeringDB
           </b-dropdown-item>
           <b-dropdown-item href="https://bgp.he.net/AS399888">
-            HE.net
+            BGP Info
           </b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
