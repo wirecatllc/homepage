@@ -12,10 +12,26 @@
             </b-card-text>
 
             <b-list-group flush>
-              <b-list-group-item><b-link href="https://he.net/tour/fremont2.html">he.net FMT2</b-link></b-list-group-item>
-              <b-list-group-item><b-link href="https://opencolo.com/">OpenColo</b-link></b-list-group-item>
-              <b-list-group-item><b-link href="https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv10">Equinix SV(8, 10, etc.)</b-link></b-list-group-item>
-              <b-list-group-item><b-link href="https://www.coresite.com/data-center-locations/silicon-valley">CoreSite Silicon Valley (SV1, 3, 4, 7, 8)</b-link></b-list-group-item>
+              <b-list-group-item>
+                <b-link href="https://he.net/tour/fremont2.html">
+                  he.net FMT2
+                </b-link>
+              </b-list-group-item>
+              <b-list-group-item>
+                <b-link href="https://opencolo.com/">
+                  OpenColo
+                </b-link>
+              </b-list-group-item>
+              <b-list-group-item>
+                <b-link href="https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv10">
+                  Equinix SV(8, 10, etc.)
+                </b-link>
+              </b-list-group-item>
+              <b-list-group-item>
+                <b-link href="https://www.coresite.com/data-center-locations/silicon-valley">
+                  CoreSite Silicon Valley (SV1, 3, 4, 7, 8)
+                </b-link>
+              </b-list-group-item>
             </b-list-group>
           </b-card>
         </b-col>

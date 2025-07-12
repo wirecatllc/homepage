@@ -33,7 +33,7 @@
         <b-nav-item href="https://billing.wirecat.net">
           Portal
         </b-nav-item>
-         <b-nav-item-dropdown text="Community" right>
+        <b-nav-item-dropdown text="Community" right>
           <b-dropdown-item href="https://t.me/WirecatNews">
             Telegram
           </b-dropdown-item>
