@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
-    <nuxt-img src="/logo.png" />
-    <p>All Rights Reserved, 2021-2024</p>
+    <nuxt-img src="/logo.png" sizes="100vw sm:50vw md:400px"/>
+    <p>All Rights Reserved, 2021-2025</p>
   </div>
 </template>
 
