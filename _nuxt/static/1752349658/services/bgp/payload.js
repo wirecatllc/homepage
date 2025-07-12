@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/services/bgp", {data:[{_img:{"/_ipx/w_320/logo.png":"\u002F_nuxt\u002Fimage\u002F8b4c5c.png","/_ipx/w_400/logo.png":"\u002F_nuxt\u002Fimage\u002Fb2a3d6.png"}}],fetch:{},mutations:void 0});
