@@ -31,8 +31,12 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^30.0.4",
     "eslint": "^8.57.0",
-    "eslint-plugin-nuxt": "^4.0.0",
     "jest": "^30.0.4",
     "vue-jest": "^3.0.4"
+  },
+  "resolutions": {
+    "vue": "2.7.16",
+    "vue-template-compiler": "2.7.16",
+    "vue-server-renderer": "2.7.16"
   }
 }
