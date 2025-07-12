@@ -2,54 +2,16 @@
   <div>
     <IndexFrame />
     <b-container>
-      <b-row cols="1" cols-sm="1" cols-md="2" cols-lg="4">
-        <b-col>
-          <b-card
-            title="Cloud VM"
-          >
-            <b-card-text>
-              Cheap compute resources deployed in seconds. Comes with free BGP services!
-            </b-card-text>
-            <b-button href="/services/vm" variant="primary">
-              Learn More
-            </b-button>
-          </b-card>
+      <!-- Featured Services Row -->
+      <b-row cols="1" cols-sm="1" cols-md="2" class="mb-4">
+        <b-col v-for="service in featuredServices" :key="service.title">
+          <ServiceCard :service="service" />
         </b-col>
-        <b-col>
-          <b-card
-            title="Colocation"
-          >
-            <b-card-text>
-              Affordable colocation with flexible configuration and addons. You can also rent our dedicated servers with various custom configurations as well!
-            </b-card-text>
-            <b-button href="/services/colocation" variant="primary">
-              Learn More
-            </b-button>
-          </b-card>
-        </b-col>
-        <b-col>
-          <b-card
-            title="BGP"
-          >
-            <b-card-text>
-              We provide BGP services to our customers. Highly customizable, we can provide you with a /24 or a /48, or even a /32 if you need it.
-            </b-card-text>
-            <b-button href="/services/bgp" variant="primary">
-              Learn more
-            </b-button>
-          </b-card>
-        </b-col>
-        <b-col>
-          <b-card
-            title="Remote Hands"
-          >
-            <b-card-text>
-              We provide remote hands services to our customers. We have a variety of options to fit your needs.
-            </b-card-text>
-            <b-button href="/services/remotehands" variant="primary">
-              Learn more
-            </b-button>
-          </b-card>
+      </b-row>
+      <!-- Core Services Row -->
+      <b-row cols="1" cols-sm="1" cols-md="2" cols-lg="3">
+        <b-col v-for="service in coreServices" :key="service.title">
+          <ServiceCard :service="service" />
         </b-col>
       </b-row>
     </b-container>
@@ -58,6 +20,45 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  data() {
+    return {
+      featuredServices: [
+        {
+          title: 'Network & AV Solutions',
+          description: 'Complete network and audio-visual design solutions with custom fiber connectivity options.',
+          link: '/services/network-av',
+          buttonText: 'Learn More',
+          featured: true
+        },
+        {
+          title: 'Remote Hands',
+          description: 'On-site technical support and hardware management by certified technicians.',
+          link: '/services/remotehands',
+          buttonText: 'Learn More'
+        }
+      ],
+      coreServices: [
+        {
+          title: 'Cloud VM',
+          description: 'Enterprise-grade virtual machines deployed instantly with complimentary BGP services.',
+          link: '/services/vm',
+          buttonText: 'Learn More'
+        },
+        {
+          title: 'Colocation',
+          description: 'Reliable hosting with flexible configurations and premium dedicated server options.',
+          link: '/services/colocation',
+          buttonText: 'Learn More'
+        },
+        {
+          title: 'SD-WAN Solutions',
+          description: 'Intelligent network connectivity with BGP routing and traffic optimization for multi-site deployments.',
+          link: '/services/bgp',
+          buttonText: 'Learn More'
+        }
+      ]
+    }
+  }
 }
 </script>

@@ -2,14 +2,13 @@
   <b-jumbotron fluid class="extend text-center" text-variant="light">
     <template #header>
       <p>
-        SD-WAN Solutions
+        Network & AV Solutions
       </p>
     </template>
 
     <template #lead>
       <p>
-        Intelligent network connectivity with BGP routing and traffic optimization.<br>
-        <strong>Included with <u>ALL</u> of our VM/Colo services.</strong>
+        Professional network and audio-visual design with custom fiber connectivity.<br>
       </p>
     </template>
 
@@ -17,7 +16,7 @@
 
     <p>
       <b-button variant="primary" href="mailto:sales@wirecat.net">
-        Get Yours Today
+        Get Quote Today
       </b-button>
     </p>
   </b-jumbotron>
@@ -25,13 +24,13 @@
 
 <script>
 export default {
-  name: 'BGPFrame'
+  name: 'NetworkAVFrame'
 }
 </script>
 
 <style scoped>
 .extend {
-    background-image: url('~/assets/bgp-background.jpg');
+    background-image: url('~/assets/network-av-background.jpg');
     min-height: 40rem;
     display: flex;
     background-repeat: no-repeat;

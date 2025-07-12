@@ -8,6 +8,9 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
+        <b-nav-item href="/services/network-av">
+          Network & AV
+        </b-nav-item>
         <b-nav-item href="/services/vm">
           Cloud VM
         </b-nav-item>
@@ -15,9 +18,8 @@
           Colocation
         </b-nav-item>
         <b-nav-item href="/services/bgp">
-          BGP
+          SD-WAN
         </b-nav-item>
-
         <b-nav-item href="/services/remotehands">
           Remote hands
         </b-nav-item>
@@ -28,17 +30,17 @@
         <b-nav-item href="/about">
           About
         </b-nav-item>
-        <b-nav-item-dropdown text="Community" right>
+        <b-nav-item href="https://billing.wirecat.net">
+          Portal
+        </b-nav-item>
+         <b-nav-item-dropdown text="Community" right>
           <b-dropdown-item href="https://t.me/WirecatNews">
-            Telegram Channel/Discussion
+            Telegram
           </b-dropdown-item>
           <b-dropdown-item href="https://discord.gg/ATApJFeGGs">
             Discord
           </b-dropdown-item>
         </b-nav-item-dropdown>
-        <b-nav-item href="https://billing.wirecat.net">
-          Billing Portal
-        </b-nav-item>
         <b-nav-item-dropdown text="Network" right>
           <b-dropdown-item href="https://bgp.tools/lg/399888">
             Looking Glass

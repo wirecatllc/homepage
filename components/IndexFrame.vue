@@ -15,7 +15,7 @@
 
     <template #lead>
       <p>
-        We provide <u>Cost-Effective</u> IP/BGP services, colocation, and remote hands.
+        Empowering businesses with <u>Cost-Effective</u> infrastructure solutions that scale with your growth.
       </p>
     </template>
 
